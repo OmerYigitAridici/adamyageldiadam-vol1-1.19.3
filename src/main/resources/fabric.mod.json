@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "myman",
+	"version": "${version}",
+	"name": "adamyageldiadam",
+	"description": "whats up guys its quandale dingle here",
+	"authors": [
+		"my man omar"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/OmerYigitAridici/adamyageldiadam-vol1"
+	},
+	"license": "MIT",
+	"icon": "assets/myman/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.omar.myman.InterestingMod"
+		],
+		"client": [
+			"net.omar.myman.InterestingModClient"
+		],
+		"fabric-datagen": [
+			"net.omar.myman.InterestingModDataGenerator"
+		]
+	},
+	"mixins": [
+		"myman.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.13",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
