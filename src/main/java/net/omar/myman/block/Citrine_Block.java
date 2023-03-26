@@ -17,7 +17,7 @@ import net.omar.myman.InterestingMod;
 
 public class Citrine_Block {
     public static final Block CITRINE_BLOCK = registerCitrineBlock("citrine_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ItemGroups.BUILDING_BLOCKS,);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     private static Block registerCitrineBlock(String name, Block block, ItemGroup group) {
         registerCitrineBlockItem(name, block, group);
         return Registry.register(Registries.BLOCK, new Identifier(InterestingMod.MOD_ID,name),block);
