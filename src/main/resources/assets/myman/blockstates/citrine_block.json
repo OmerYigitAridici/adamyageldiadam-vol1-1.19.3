@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": {"moder": "myman:block/citrine_block"}
+    "": {"model": "myman:block/citrine_block"}
   }
 }
