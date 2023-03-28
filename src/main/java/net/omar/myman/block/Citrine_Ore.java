@@ -16,7 +16,7 @@ import net.omar.myman.InterestingMod;
 
 public class Citrine_Ore {
     public static final Block CITRINE_ORE = registerCitrineOre("citrine_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(6.0f).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     private static Block registerCitrineOre(String name, Block block, ItemGroup group) {
         registerCitrineOreItem(name, block, group);
         return Registry.register(Registries.BLOCK, new Identifier(InterestingMod.MOD_ID, name),block);
