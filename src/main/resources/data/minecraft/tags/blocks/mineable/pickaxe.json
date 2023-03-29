@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "myman:citrine_ore",
+    "myman:citrine_block",
+    "myman:deepslate_citrine_ore"
+  ]
+}
