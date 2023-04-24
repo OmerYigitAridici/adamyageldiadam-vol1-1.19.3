@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 90,
+  "group": "iron_ingot",
+  "ingredient": {
+    "item": "myman:deepslate_citrine_ore"
+  },
+  "result": "myman:citrine"
+}

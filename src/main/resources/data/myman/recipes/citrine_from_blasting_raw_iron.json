@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 50,
+  "group": "iron_ingot",
+  "ingredient": {
+    "item": "myman:raw_citrine"
+  },
+  "result": "myman:citrine"
+}

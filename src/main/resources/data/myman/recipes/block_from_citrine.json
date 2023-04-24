@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "iron_ingot",
+  "ingredients": [
+    {
+      "item": "myman:citrine_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "myman:citrine"
+  }
+}
